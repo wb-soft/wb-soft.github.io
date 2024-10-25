@@ -1,0 +1,49 @@
+@charset "utf-8";
+
+@font-face {
+	font-family: 'Open-Sans-Regular';
+	src: local('Open-Sans-Regular'), url('resources/fonts/Open_Sans/OpenSans-Regular.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Open-Sans-Bold';
+	src: local('Open-Sans-Bold'), url('resources/fonts/Open_Sans/OpenSans-Bold.ttf') format('truetype');
+}
+
+body * {font-family: 'Open-Sans-Regular';}
+
+main {min-height: 100vh; padding-bottom: 2em;}
+
+h1 {font-size: 1.75em; text-align: center; width: 100%; padding: .5em 0; color: #fff; background: #ae1be6; background: linear-gradient(90deg, #d830d6 0%, #8708f6 100%);}
+
+.description {width: 450px; max-width: 100%; padding: 0 .5em; margin: 0 auto;}
+.description p {font-size: 1.1em; line-height: 1.5em; margin-top: .5em;}
+
+.parameters {width: 300px; max-width: 100%; margin: 1em auto;}
+.parameters > div {margin-top: .05em;}
+.parameters > div > strong {font-family: 'Open-Sans-Bold'; font-size: 1.15em;}
+.parameters > div > span {font-size: 1.1em; margin-left: .25em;}
+
+.contacts a:hover,
+.contacts a:focus {text-decoration: none; color: #fff;}
+.contacts a:hover {opacity: .85;}
+.contacts a {display: block; width: 300px; font-size: 1.1em; text-align: center; padding: .5em .75em; margin: auto; margin-top: .5em; margin-bottom: 1em; border-radius: .25em; color: #fff; background: #ae1be6; background: linear-gradient(90deg, #d830d6 0%, #8708f6 100%);}
+
+.slider {width: 900px; max-width: 100%; margin: auto; margin-top: .5em;}
+.slider > img {max-width: 100%; border-radius: .25em;}
+
+.faq {width: 900px; max-width: 100%; margin: auto; margin-top: 2em;}
+.faq h2 {font-size: 1.5em; font-family: 'Open-Sans-Bold';}
+.faq p {font-size: 1.1em; line-height: 1.5em; margin-top: .25em;}
+
+section,
+.section {margin-top: 1em;}
+
+section.how-to-install,
+section.how-does-it-works {padding: 0 .5em;}
+
+@media (min-width: 1200px) {
+	.description {padding: 0;}
+	section.how-to-install,
+	section.how-does-it-works {padding: 0;}
+}

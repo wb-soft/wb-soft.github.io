@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /*?*
+Host: https://wb-soft.github.io
+Sitemap: https://wb-soft.github.io/sitemap.xml
